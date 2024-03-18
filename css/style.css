@@ -1,0 +1,297 @@
+:root {
+  --f7-theme-color: #ff0000;
+  --f7-navbar-bg-color: #000; /*navbar*/
+  --f7-navbar-link-color: #fff; /*navbar link*/
+  --f7-navbar-text-color: #fff;
+  --f7-bars-bg-color: #fff; /*toolbar*/
+  --f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+  --f7-block-margin-vertical: 20px;
+  --f7-card-footer-border-color: transparent;
+  --f7-button-text-color: #000;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+li::marker {
+  display: none;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5px 0;
+}
+
+.page {
+  background-color: #d5221e !important;
+}
+.block-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: black;
+  display: flex;
+  gap: 10px;
+}
+
+.block-title-large {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+article.col-100 {
+  background-color: #000;
+}
+
+.card-product {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+.card-product p {
+  color: #aaa;
+  font-size: 12px;
+}
+hr {
+  border: 1px solid black;
+}
+#panel-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+
+  gap: 10px;
+}
+.favorite-sections {
+  margin: 0 30px;
+}
+.favorite-sections > li > a {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px 0;
+  color: white;
+  font-weight: 50;
+}
+
+#panel-profile img {
+  width: 50px;
+  height: 50px;
+}
+
+#panel-profile h4 {
+  margin-bottom: 0;
+
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: x-large;
+}
+#panel-profile p {
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.card {
+  border-radius: 20px !important;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#panel-profile .card {
+  padding: 5px;
+  border-radius: 20px;
+  margin: 0;
+}
+
+#panel-nav .item-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+#panel-nav i {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 3px;
+}
+#panel-nav .list {
+  box-shadow: 0px 0px 15px 5px #f2f2f2;
+}
+
+#categories .card-product .content {
+  margin-top: 20px;
+}
+#categories .card-product h4 {
+  font-size: 16px;
+}
+#categories .card-product .button {
+  margin: 15% 0;
+}
+
+#products .item-content {
+  box-shadow: 0px 0px 10px 5px #f2f2f2;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+#products .item-media {
+  width: 100px;
+}
+#products .item-title {
+  margin-top: 20px;
+}
+
+body {
+  font-family: sans-serif;
+}
+.page {
+  background-color: #fff;
+}
+.navbar {
+  background-color: #000;
+  color: #fff;
+}
+.content-block {
+  padding: 10px;
+}
+
+/* Página principal */
+.acerca-de {
+  text-align: center;
+}
+
+/* Página de productos */
+.list-block {
+  margin: 0;
+}
+.item-link {
+  color: #000;
+}
+
+img {
+  object-fit: cover;
+}
+
+h4 {
+  font-size: large;
+}
+
+.card-content > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
+}
+
+.card-footer > a,
+.card-footer > a > button {
+  width: 100%;
+  border-radius: 1rem;
+  font-weight: 800;
+  font-size: medium;
+}
+
+.right {
+  margin: 0 !important;
+}
+
+.navbar-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+}
+
+.about-us-content {
+  font-size: x-large;
+  color: white;
+  padding: 50px;
+  font-weight: bold;
+}
+
+.login-card {
+  border-radius: 20px;
+  width: 350px !important;
+  margin: 20px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.panel {
+  background-color: white !important;
+  color: black;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-content > p {
+  background-color: #000;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 3rem;
+  border-radius: 1rem;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.button-fill-home {
+  background-color: #000;
+  width: fit-content;
+  font-weight: bolder !important;
+  color: white;
+}
+
+.sign-now {
+  display: flex;
+  flex-direction: column;
+  color: white !important;
+  align-items: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.sign-now > a {
+  font-weight: bolder;
+  color: white;
+}
+
+.product-details {
+  text-align: center;
+  vertical-align: middle;
+  font-size: x-large;
+  color: white;
+}
+
+.accordion-item-toggle {
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.accordion-item-content > ul {
+  color: white;
+  font-size: larger;
+}

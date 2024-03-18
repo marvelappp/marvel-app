@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Marvel Store App</title>
+	<link href="css/framework7.bundle.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<div id="app">
+
+		<section class="panel panel-left panel-cover panel-init" data-visible-breakpoint="960">
+			<div id="panel-profile">
+				<img src="img/x.png" alt="" class="img-fluid" />
+				<h4>Marvel App</h4>
+
+			</div>
+			<hr />
+
+			<div id="panel-nav" class="block">
+				<div class="list media-list">
+					<ul>
+						<li>
+							<a href="/home/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="material-icons">home</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">Home</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/login/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="material-icons">account_circle</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">Profile</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/about/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="material-icons">track_changes</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">About us</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/categories/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="material-icons">grid_view</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">Categories</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/purchases/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="material-icons">shopping_bag</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">My Purchases</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/settings/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="material-icons">settings</i>
+								</div>
+								<div class="item-inner">
+									<div class="item-title">Settings</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<div class="view view-main view-init">
+			<section data-name="home" class="page">
+				<nav class="navbar">
+					<div class="navbar-bg"></div>
+					<div class="navbar-inner">
+						<div class="left">
+							<a href="#" class="link panel-open" data-panel="left">
+								<i class="material-icons">menu</i>
+							</a>
+						</div>
+						<div class="title">Marvel App</div>
+						<div class="right">
+							<a href="/login/" class="link">
+								<span class="material-icons">account_circle</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+
+				<section data-name="home" class="page">
+					<div class="page" data-name="home">
+						<div class="page-content">
+							<div class="home-content">
+								<img src="img/marvel.png" alt="" class="img-fluid" />
+								<p>
+									Welcome to the ultimate and
+									coolest store where you can
+									find all the Marvel products you
+									desire to collect. Join the
+									Marvel world with us.
+								</p>
+								<a class="button 
+								button-fill-home" href="/categories/">Start shopping</a>
+							</div>
+							<div class="sign-now">
+								<p>Don't have an account?</p>
+								<a href="/login/">Sign in Here</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</section>
+
+			<div class="toolbar toolbar-bottom">
+				<div class="toolbar-inner">
+					<a href="/categories/" class="link"><i class="material-icons">store</i></a>
+					<a href="/login/" class="link"><i class="material-icons">notifications</i></a>
+					<a href="/home/" class="link"><i class="material-icons">home</i></a>
+					<a href="/login/" class="link"><i class="material-icons">panorama_fish_eye</i></a>
+					<a href="/about/" class="link"><i class="material-icons">more_horiz</i></a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<script>
+			var myApp = new Framework7();
+		</script>
+		<script src="js/framework7.bundle.min.js"></script>
+		<script src="js/app.js"></script>
+
+</body>
+
+</html>
